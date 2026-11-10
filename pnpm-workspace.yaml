@@ -3,8 +3,8 @@ pmOnFail: ignore
 allowBuilds:
   esbuild: true
 catalog:
-  vite: npm:@voidzero-dev/vite-plus-core@1.5.0
-  vite-plus: 1.5.0
+  vite: npm:@voidzero-dev/vite-plus-core@0.0.0-commit.a86fd1603196e23718d16144a472ad91b4ba21be
+  vite-plus: 0.0.0-commit.a86fd1603196e23718d16144a472ad91b4ba21be
 minimumReleaseAgeExclude:
   - "@oxlint/binding-darwin-x64@1.91.0"
   - "@oxlint/binding-freebsd-x64@1.91.0"
@@ -19,17 +19,17 @@ minimumReleaseAgeExclude:
   - "@oxlint/binding-win32-ia32-msvc@1.91.0"
   - "@oxlint/binding-win32-x64-msvc@1.91.0"
   - "@oxlint/plugins@1.91.0"
-  - "@voidzero-dev/vite-plus-core@1.5.0"
-  - "@voidzero-dev/vite-plus-darwin-arm64@1.5.0"
-  - "@voidzero-dev/vite-plus-darwin-x64@1.5.0"
-  - "@voidzero-dev/vite-plus-linux-arm64-gnu@1.5.0"
-  - "@voidzero-dev/vite-plus-linux-arm64-musl@1.5.0"
-  - "@voidzero-dev/vite-plus-linux-x64-gnu@1.5.0"
-  - "@voidzero-dev/vite-plus-linux-x64-musl@1.5.0"
-  - "@voidzero-dev/vite-plus-win32-arm64-msvc@1.5.0"
-  - "@voidzero-dev/vite-plus-win32-x64-msvc@1.5.0"
+  - "@voidzero-dev/vite-plus-core@0.0.0-commit.a86fd1603196e23718d16144a472ad91b4ba21be || 1.5.0"
+  - "@voidzero-dev/vite-plus-darwin-arm64@0.0.0-commit.a86fd1603196e23718d16144a472ad91b4ba21be || 1.5.0"
+  - "@voidzero-dev/vite-plus-darwin-x64@0.0.0-commit.a86fd1603196e23718d16144a472ad91b4ba21be || 1.5.0"
+  - "@voidzero-dev/vite-plus-linux-arm64-gnu@0.0.0-commit.a86fd1603196e23718d16144a472ad91b4ba21be || 1.5.0"
+  - "@voidzero-dev/vite-plus-linux-arm64-musl@0.0.0-commit.a86fd1603196e23718d16144a472ad91b4ba21be || 1.5.0"
+  - "@voidzero-dev/vite-plus-linux-x64-gnu@0.0.0-commit.a86fd1603196e23718d16144a472ad91b4ba21be || 1.5.0"
+  - "@voidzero-dev/vite-plus-linux-x64-musl@0.0.0-commit.a86fd1603196e23718d16144a472ad91b4ba21be || 1.5.0"
+  - "@voidzero-dev/vite-plus-win32-arm64-msvc@0.0.0-commit.a86fd1603196e23718d16144a472ad91b4ba21be || 1.5.0"
+  - "@voidzero-dev/vite-plus-win32-x64-msvc@0.0.0-commit.a86fd1603196e23718d16144a472ad91b4ba21be || 1.5.0"
   - oxlint@1.91.0
-  - vite-plus@1.5.0
+  - vite-plus@0.0.0-commit.a86fd1603196e23718d16144a472ad91b4ba21be || 1.5.0
 overrides:
   vite@*: "catalog:"
 peerDependencyRules:
